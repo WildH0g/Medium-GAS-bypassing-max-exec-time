@@ -6,6 +6,6 @@ class ScanStatus {
   }
 
   static get() {
-    return PropertiesService.getScriptProperties().getProperty('status');
+    return PropertiesService.getScriptProperties().getProperty(key);
   }
 }
